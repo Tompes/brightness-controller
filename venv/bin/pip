@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/media/removable/SD Card/CODE/PyProjects/BrightnessController/venv/bin/python" "$0" "$@"
+'''exec' "./venv/bin/python" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
