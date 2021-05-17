@@ -30,7 +30,7 @@ if __name__ == "__main__":
             if sudoTest(dialog.get_entry_value()):
                 sudo_pass = dialog.get_entry_value()
                 print('pass')
-                # dialog.destroy()
+                dialog.destroy()
 
                 controller = BrightnessActions(sudo_pass=sudo_pass, window=Gtk.Window())
                 window = MainWindow(controller)
