@@ -1,0 +1,4 @@
+altgraph==0.17
+gobject==0.1.0
+pyinstaller==4.1
+pyinstaller-hooks-contrib==2021.1
